@@ -1,1 +1,83 @@
 # Git
+
+## Git Commands Cheat Sheet
+
+### Revert
+`git revert <hash>` — like reset, loses changes to that commit but creates a new commit
+
+### Back to some commit – correcting commit
+`git reset --hard <hash>` — loses changes on working directory  
+`git reset <hash>` — keeps changes on working directory  
+`git log --oneline` — to get the hash
+
+### Unstaging files
+`git restore --staged <file name>`  
+`git status`
+
+### Discarding workplace file changes
+`git restore <file name>` — last commit  
+`git restore --source HEAD~1 <file name>`  
+`git checkout HEAD <file name>` — latest changes go away, back to where HEAD is (last commit)  
+`git checkout -- <file name>`
+
+### Going back in time
+`git checkout <hash>` — detached HEAD  
+`git switch master` — pointing at the last commit  
+`git log --oneline` — to see what is going on  
+`git switch -c <new-branch-name>` — create and switch to new branch
+
+### Stash
+`git stash`  
+`git stash pop`
+
+### Diff
+`git diff`  
+`git diff HEAD` — all changes vs HEAD  
+`git diff --staged`  
+`git diff --cached`  
+`git diff branch1..branch2`  
+`git diff commit1..commit2`
+
+### Merge
+`git switch master`  
+`git merge <a branch>` — fast forward | commit merge (no conflicts) | conflict
+
+### Checkout – old way
+`git checkout <branchname>` — change branch  
+`git checkout -b <branchname>` — create & switch to branch  
+`git checkout HEAD~1` — parent  
+`git checkout HEAD~2` — grandparent
+
+### Branches
+`git branch` — list of branches (master is git default, main is GitHub default)
+
+`git switch master`  
+`git branch <branchname>` — creates a new branch based on where HEAD is (always commit before)  
+`git switch <branchname>` — checkout is the old command  
+`git switch -c <branchname>` — create & switch to branch
+
+`git branch -d <branchname>` — delete (must be on a different branch)  
+`git branch -D <branchname>` — force delete
+
+`git branch -m <branchname>` — rename (must be on branch)  
+`git branch -v` — more info
+
+### Log
+`git log` — top row is last  
+`git log --oneline`
+
+### Most common ***
+`git status` — to see what is happening  
+`git add .` — always before commit  
+`git commit -m "xxx"` — always present form  
+`git commit -a -m "xxx"` — add & commit
+
+### Init
+`git init`
+
+### Settings
+`git config --global user.name "xxx"`  
+`git config --global user.email "xxx@x.x"`  
+`git config --global core.editor "code --wait"`
+
+`git config user.name`
