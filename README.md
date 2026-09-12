@@ -1,5 +1,3 @@
-# Git
-
 ## Git Commands Cheat Sheet
 
 ### Revert
