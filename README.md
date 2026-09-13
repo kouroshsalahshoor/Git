@@ -142,8 +142,10 @@ settings > branches > main
 `git init`
 
 ### Settings
+`git config --global -l`  
+`git config user.name`  
+
 `git config --global user.name "xxx"`  
 `git config --global user.email "xxx@x.x"`  
-`git config --global core.editor "code --wait"`
-
-`git config user.name`
+`git config --global core.editor "code --wait"`  
+`git config --global init.defaultbranch main`  
