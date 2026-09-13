@@ -1,6 +1,6 @@
 ## Git
 
-![Alt text]([https://example.com](https://github.com/kouroshsalahshoor/Git/git.png)
+![Git](https://raw.githubusercontent.com/kouroshsalahshoor/Git/refs/heads/main/git.png)
 
 ### .md file
 - [https://markdown-it.github.io/](https://markdown-it.github.io/)
