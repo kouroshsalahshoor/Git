@@ -1,8 +1,8 @@
-## Git
+# Git
 
 ![Git](https://raw.githubusercontent.com/kouroshsalahshoor/Git/refs/heads/main/git.png)
 
-### .md file
+## .md file
 - [https://markdown-it.github.io/](https://markdown-it.github.io/)
 
 ## Git Commands Cheat Sheet
