@@ -2,6 +2,9 @@
 
 ![Git](https://raw.githubusercontent.com/kouroshsalahshoor/Git/refs/heads/main/git.png)
 
+## Github Pages
+Settings > Pages > choose branch with index.html
+
 ## .md file
 - [https://markdown-it.github.io/](https://markdown-it.github.io/)
 
