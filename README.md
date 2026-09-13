@@ -2,6 +2,21 @@
 
 ![Git](https://raw.githubusercontent.com/kouroshsalahshoor/Git/refs/heads/main/git.png)
 
+## Workflow - Never on main
+`git fetch origin main`  
+`git status`  
+`git branch -r`  
+
+`git pull origin main`  
+`git checkout feautre/xxx`  
+`git switch -` - back to HEAD  
+
+`git switch -c feautre/<xxx>` - new branch  
+`git switch feautre/<xxx>`  
+`git status`  
+`git commit -am "comment"`  
+`git push origin feauture/xxx`  
+
 ## Github Pages
 Settings > Pages > choose branch with index.html
 
@@ -24,7 +39,7 @@ Settings > Pages > choose branch with index.html
 `git checkout origin/<branch>`          - detached HEAD
 
 ## Default Branch
-# settings > branches > main
+settings > branches > main
 
 ## Push
 `git branch -M main`                    - rename branch  
