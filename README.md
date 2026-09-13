@@ -79,7 +79,8 @@ Settings > Pages > choose branch with index.html
 `git add .` — always before commit  
 `git commit -m "xxx"` — always present form  
 `git commit -a -m "xxx"` — add & commit
-`git commit -am "xxx"`
+
+`git commit -am "xxx"` — add & commit
 
 ### Init
 `git init`
