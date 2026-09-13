@@ -1,5 +1,7 @@
 # GitHub
 
+![Git](https://raw.githubusercontent.com/kouroshsalahshoor/Git/refs/heads/main/git.png)
+
 ## Github Pages
 Settings > Pages > choose branch with index.html
 
@@ -7,51 +9,47 @@ Settings > Pages > choose branch with index.html
 - [https://markdown-it.github.io/](https://markdown-it.github.io/)
 
 ## Pull & Push
-git pull origin <branch>              # always pull before push  
-git pull                              # same branch  
-git push origin <branch>  
-git push                              # same branch  
+`git pull origin <branch>`              - always pull before push  
+`git pull`                              - pull current branch  
+`git push origin <branch>`  
+`git push`                              - push current branch  
 
 ## Fetch
-git fetch origin <branch>
+`git fetch origin <branch>`
 
 ## Remote Branches
-git branch -r  
-git switch <branch>                   # recommended  
-git checkout --track origin/<branch>  # old  
-git checkout origin/<branch>          # detached HEAD
+`git branch -r`  
+`git switch <branch>`                   - recommended  
+`git checkout --track origin/<branch>`  - old  
+`git checkout origin/<branch>`          - detached HEAD
 
 ## Default Branch
-settings > branches > main
+# settings > branches > main
 
 ## Push
-git branch -M main                    # rename branch  
-git push origin <remote-branch>       # creates remote branch if missing  
-git push origin <local>:<remote>  
+`git branch -M main`                    - rename branch  
+`git push origin <remote-branch>`       - creates remote branch if missing  
+`git push origin <local-branch>:<remote-branch>`  
 
-git push -u origin main  
-git push -u origin <remote-branch>  
-git push -u origin <local>:<remote>  
+`git push -u origin main`  
+`git push -u origin <remote-branch>`  
+`git push -u origin <local-branch>:<remote-branch>`  
 
-git push                              # upstream already set  
-git push origin master  
-git push <remote> <branch>
+`git push`                              - upstream already set  
+`git push origin master`  
+`git push <remote> <branch>`
 
 ## Remote
-git remote add origin <repo-url>  
-git remote add <name> <repo-url>  
-git remote -v  
-git remote rename <old> <new>  
-git remote remove <name>
+`git remote add origin <repo-url>`  
+`git remote add <name> <repo-url>`  
+`git remote -v`  
+`git remote rename <old> <new>`  
+`git remote remove <name>`
 
 ## Clone
-git clone <url>
+`git clone <url>`
 
----
-
-## Git
-
-![Git](https://raw.githubusercontent.com/kouroshsalahshoor/Git/refs/heads/main/git.png)
+# Git
 
 ### Revert
 `git revert <hash>` — like reset, loses changes to that commit but creates a new commit
