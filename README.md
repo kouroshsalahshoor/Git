@@ -10,6 +10,10 @@ fix conflicts locally
 `git switch main` or master  
 `git merge feature/xxx`  
 `git push origin main`  
+`git branch -D feature/xxx` delete feature branch locally  
+`git pull origin main`  
+`git status`  
+`git log`  
 
 ## Workflow - Never on main
 `git fetch origin main`  
