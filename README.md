@@ -35,7 +35,7 @@ fix conflicts locally
 `git commit -am "comment"`  
 `git push origin feauture/xxx`  
 
-## rebase
+## rebase !!! never do when shared history with others !!!
 `git switch feature/xxx`  
 `git rebase main`  
 
