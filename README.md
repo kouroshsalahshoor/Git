@@ -171,3 +171,6 @@ settings > branches > main
 `git config --global user.email "xxx@x.x"`  
 `git config --global core.editor "code --wait"`  
 `git config --global init.defaultbranch main`  
+
+[Udemy - The Git & Github Bootcamp](https://www.bilibili.com/video/BV1YM7qzWEqo/?spm_id_from=333.337.search-card.all.click&vd_source=396d99df17169e23716a53b0fa85b893)
+ - [part 2](https://www.bilibili.com/video/BV1y17izuEJc/?spm_id_from=333.337.search-card.all.click&vd_source=396d99df17169e23716a53b0fa85b893)
