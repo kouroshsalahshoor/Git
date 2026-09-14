@@ -2,7 +2,12 @@
 
 ![Git](https://raw.githubusercontent.com/kouroshsalahshoor/Git/refs/heads/main/git.png)
 
-## merge conflicts locally
+## Branch editing rules
+settings>branches>add rule>  
+- branch name pattern  
+- require pull request reviews before merging
+
+## Merge conflicts locally
 `git fetch origin`  
 `git switch feature/xxx`  
 `git merge main` or master  
