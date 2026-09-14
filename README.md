@@ -35,6 +35,10 @@ fix conflicts locally
 `git commit -am "comment"`  
 `git push origin feauture/xxx`  
 
+## rebase
+`git switch feature/xxx` 
+`git rebase main` 
+
 ## Github Pages
 Settings > Pages > choose branch with index.html
 
