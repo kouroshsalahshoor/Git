@@ -2,6 +2,15 @@
 
 ![Git](https://raw.githubusercontent.com/kouroshsalahshoor/Git/refs/heads/main/git.png)
 
+## merge conflicts locally
+`git fetch origin`  
+`git switch feature/xxx`  
+`git merge main` or master  
+fix conflicts locally  
+`git switch main` or master  
+`git merge feature/xxx`  
+`git push origin main`  
+
 ## Workflow - Never on main
 `git fetch origin main`  
 `git status`  
